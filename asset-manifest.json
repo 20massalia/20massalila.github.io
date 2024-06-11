@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/20massalila.github.io/static/css/main.f855e6bc.css",
+    "main.js": "/20massalila.github.io/static/js/main.c92cdca0.js",
+    "static/js/453.f76ce6b6.chunk.js": "/20massalila.github.io/static/js/453.f76ce6b6.chunk.js",
+    "static/media/logo.svg": "/20massalila.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/20massalila.github.io/index.html",
+    "main.f855e6bc.css.map": "/20massalila.github.io/static/css/main.f855e6bc.css.map",
+    "main.c92cdca0.js.map": "/20massalila.github.io/static/js/main.c92cdca0.js.map",
+    "453.f76ce6b6.chunk.js.map": "/20massalila.github.io/static/js/453.f76ce6b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.c92cdca0.js"
+  ]
+}
