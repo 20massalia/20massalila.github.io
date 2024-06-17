@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/20massalila.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/20massalila.github.io/static/js/main.e3337ea7.js",
+    "main.js": "/20massalila.github.io/static/js/main.2e513f24.js",
     "static/js/453.f76ce6b6.chunk.js": "/20massalila.github.io/static/js/453.f76ce6b6.chunk.js",
     "index.html": "/20massalila.github.io/index.html",
     "main.f855e6bc.css.map": "/20massalila.github.io/static/css/main.f855e6bc.css.map",
-    "main.e3337ea7.js.map": "/20massalila.github.io/static/js/main.e3337ea7.js.map",
+    "main.2e513f24.js.map": "/20massalila.github.io/static/js/main.2e513f24.js.map",
     "453.f76ce6b6.chunk.js.map": "/20massalila.github.io/static/js/453.f76ce6b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.e3337ea7.js"
+    "static/js/main.2e513f24.js"
   ]
 }
