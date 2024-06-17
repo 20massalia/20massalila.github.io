@@ -1,5 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
+import redTapeImage from '../assets/red_tape.png';
 import { COLOR } from '../constants/color';
 
 const Body = styled.div`
@@ -18,7 +19,7 @@ const DiaryCoverWrapper = styled.div`
     position: relative;
     padding: 20px;
     border-radius: 2px;
-    transform: rotate(350deg); /* 350deg 대신 10deg 사용 */
+    transform: rotate(350deg);
     transform-origin: top left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `;
@@ -35,7 +36,7 @@ const SpiralBinding = styled.div`
 const Content = styled.div`
     position: relative;
     margin-left: 100px;
-    margin-top: 70px;
+    margin-top: 50px;
 `;
 
 const Drawing = styled.div`
@@ -46,9 +47,19 @@ const Drawing = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: rotate(4deg); /* 350deg 대신 10deg 사용 */
+    transform: rotate(3deg);
     transform-origin: top left;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+`;
+
+const RedTape = styled.img`
+    z-index: 5;
+    position: absolute;
+    bottom: -50px;
+    right: 30px;
+    transform: rotate(7deg);
+    transform-origin: top left;
 `;
 
 const DiaryCover = () => {
@@ -57,6 +68,7 @@ const DiaryCover = () => {
             <DiaryCoverWrapper>
                 <SpiralBinding />
                 <Content>
+                    <RedTape src={redTapeImage} alt="Red Tape" />
                     <Drawing>
                         {/* 그림 넣기 */}
                     </Drawing>
