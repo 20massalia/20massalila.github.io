@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/20massalila.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/20massalila.github.io/static/js/main.2e513f24.js",
+    "main.js": "/20massalila.github.io/static/js/main.ec842a88.js",
     "static/js/453.f76ce6b6.chunk.js": "/20massalila.github.io/static/js/453.f76ce6b6.chunk.js",
+    "static/media/doodle.svg": "/20massalila.github.io/static/media/doodle.30d26928f9ad93a71d4e1d04ec27ace5.svg",
+    "static/media/blue_tape.svg": "/20massalila.github.io/static/media/blue_tape.dd79c8dfbc598957e71ccf23add6b848.svg",
+    "static/media/red_tape.svg": "/20massalila.github.io/static/media/red_tape.dd11f34130458a4041016bc283fd3edf.svg",
     "index.html": "/20massalila.github.io/index.html",
     "main.f855e6bc.css.map": "/20massalila.github.io/static/css/main.f855e6bc.css.map",
-    "main.2e513f24.js.map": "/20massalila.github.io/static/js/main.2e513f24.js.map",
+    "main.ec842a88.js.map": "/20massalila.github.io/static/js/main.ec842a88.js.map",
     "453.f76ce6b6.chunk.js.map": "/20massalila.github.io/static/js/453.f76ce6b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.2e513f24.js"
+    "static/js/main.ec842a88.js"
   ]
 }
