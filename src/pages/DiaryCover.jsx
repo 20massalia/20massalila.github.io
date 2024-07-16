@@ -2,7 +2,7 @@ import React from "react";
 import styled from 'styled-components';
 import redTapeImage from '../assets/images/red_tape.svg';
 import blueTapeImage from '../assets/images/blue_tape.svg'
-import doodle from '../assets/images/졸라맨.svg'
+import doodle from '../assets/images/doodle.svg'
 import { COLOR } from '../constants/color';
 
 const Body = styled.div`
