@@ -1,6 +1,8 @@
 import React from "react";
 import styled from 'styled-components';
-import redTapeImage from '../assets/red_tape.png';
+import redTapeImage from '../assets/images/red_tape.svg';
+import blueTapeImage from '../assets/images/blue_tape.svg'
+import doodle from '../assets/images/졸라맨.svg'
 import { COLOR } from '../constants/color';
 
 const Body = styled.div`
@@ -56,8 +58,28 @@ const Drawing = styled.div`
 const RedTape = styled.img`
     z-index: 5;
     position: absolute;
-    bottom: -50px;
-    right: 30px;
+    width: 30%;
+    bottom: -25px;
+    right: -45px;
+    transform: rotate(7deg);
+    transform-origin: top left;
+`;
+
+const BlueTape = styled.img`
+    z-index: 5;
+    position: absolute;
+    width: 30%;
+    top: -30px;
+    left: -30px;
+    transform: rotate(7deg);
+    transform-origin: top left;
+`;
+
+const Doodle = styled.img`
+    z-index: 5;
+    position: absolute;
+    width: 45%;
+    bottom: 10px;
     transform: rotate(7deg);
     transform-origin: top left;
 `;
@@ -68,9 +90,10 @@ const DiaryCover = () => {
             <DiaryCoverWrapper>
                 <SpiralBinding />
                 <Content>
-                    <RedTape src={redTapeImage} alt="Red Tape" />
                     <Drawing>
-                        {/* 그림 넣기 */}
+                        <RedTape src={redTapeImage} alt="Red Tape" />
+                        <BlueTape src={blueTapeImage} alt="Blue Tape" />
+                        <Doodle src={doodle} alt="졸라맨"/>
                     </Drawing>
                     <div className="letters">
                         {/* 콜라주 글자 넣기 */}
